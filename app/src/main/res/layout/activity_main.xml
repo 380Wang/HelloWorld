@@ -8,19 +8,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/main_editText"
+    <!--<EditText-->
+        <!--android:id="@+id/main_editText"-->
+        <!--android:layout_width=""-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="@string/main_text" />-->
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/main_text" />
+        android:id="@+id/mainActTextViewDesc"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/main_editText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="@string/submit" />
+        android:text="@string/open"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

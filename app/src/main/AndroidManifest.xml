@@ -20,6 +20,12 @@
             android:name=".NewActivity"
             android:label="@string/title_activity_new" >
         </activity>
+
+        <service
+            android:name=".MyService"
+            android:exported="false" >
+        </service>
+
     </application>
 
 </manifest>
