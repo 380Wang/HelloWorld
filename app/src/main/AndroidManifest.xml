@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NewActivity"
+            android:name=".PicDisplayActivity"
             android:label="@string/title_activity_new" >
         </activity>
 

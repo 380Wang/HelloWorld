@@ -6,7 +6,9 @@
     <string name="title_activity_new">NewActivity</string>
     <string name="submit">Send</string>
     <string name="main_text">Enter Text to Send to New Activity</string>
-    <string name="open">New Window</string>
+    <string name="open">Broadcast</string>
     <string name="this_is_new_win">New Window!</string>
     <string name="started_service">Started service!</string>
+    <string name="viewpic">View Picture</string>
+    <string name="viewvid">Play Video</string>
 </resources>

@@ -8,22 +8,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <!--<EditText-->
-        <!--android:id="@+id/main_editText"-->
-        <!--android:layout_width=""-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:hint="@string/main_text" />-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/mainActTextViewDesc"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/mainActPicButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/open"
+        android:text="@string/viewpic"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/mainActVidButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viewvid"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/mainActPicButton"/>
 
 </RelativeLayout>
