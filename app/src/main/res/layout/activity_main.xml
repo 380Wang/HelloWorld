@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/viewpic"
-        android:layout_centerVertical="true"
+        android:layout_centerVertical="false"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -28,5 +28,13 @@
         android:text="@string/viewvid"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/mainActPicButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recordAudioButton"
+        android:layout_below="@id/mainActVidButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/record_audio"/>
 
 </RelativeLayout>

@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.wang.grouptwo.helloworld" >
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -28,6 +29,10 @@
             android:exported="false" >
         </service>
 
+        <activity
+            android:name=".AudioRecordActivity"
+            android:label="@string/title_activity_audio_record" >
+        </activity>
     </application>
 
 </manifest>

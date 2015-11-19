@@ -11,4 +11,10 @@
     <string name="started_service">Started service!</string>
     <string name="viewpic">View Picture</string>
     <string name="viewvid">Play Video</string>
+    <string name="title_activity_audio_record">Audio</string>
+    <string name="start_record">Start Recording</string>
+    <string name="stop_record">Stop Recording</string>
+    <string name="start_playback">Start Playback</string>
+    <string name="stop_playback">Stop Playback</string>
+    <string name="record_audio">Record Audio</string>
 </resources>
